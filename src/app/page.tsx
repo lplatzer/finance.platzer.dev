@@ -22,6 +22,7 @@ export default function ProfileClient() {
     } else {
         return (
             <div className='mt-10'>
+                {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
                 <p>Du musst dich <a href="/api/auth/login"
                                     className="text-blue-600 hover:text-blue-900">hier</a> einloggen, um mehr zu sehen.
                 </p>
